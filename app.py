@@ -91,8 +91,6 @@ def carbon_info(label):
     cleaned = label.split(" ")[1].strip().lower()
     return info.get(cleaned, "No carbon emission data available for this item.")
 
-# st.set_page_config(layout='wide')
-
 st.markdown("""
     <style>
     .stApp {
